@@ -1,0 +1,111 @@
+/* miestilo.css */
+body {
+    background-color:#000000;
+    color: #D1D0D0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Comentando el estilo anterior de la división */
+/*
+.estilo-division {
+    border: 2px solid #333; 
+    padding: 20px; 
+    background-color: #f9f9f9; 
+    margin: 20px; 
+}
+*/
+
+/* Nuevo estilo */
+header {
+    background-color: #988686;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+section {
+    padding: 20px; /* Espaciado para la sección de 20 pixeles */
+}
+
+footer {
+    background-color: #988686; /* Color de fondo del footer */
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-content {
+    max-width: 800px; /* Ancho máximo del contenido del footer */
+    margin: 0 auto; /* Centrar el contenido del footer horizontalmente */
+    text-align: center;
+}
+
+/* Estilos para el nav y enlaces de ul y li */
+nav {
+    background-color: #D1D0D0;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color:#5C4E4E;
+}
+
+/* Estilos para las imágenes */
+img {
+    display: block; /* Para eliminar el espacio adicional que algunos navegadores agregan a las img. */
+    margin: 0 auto; /* Centrar las imágenes horizontalmente */
+    max-width: 100%; /* Asegurar que las imágenes no excedan el ancho del contenedor */
+    border: 3px solid #D1D0D0; /* Contorno de 3px con un color verde (#69bd45) alrededor de la img.*/
+    border-radius: 10px; /* Borde redondeado de 10px para suavizar el contorno */
+}
+
+.logo {
+    width: 150px; /* Tamaño específico para el logo */
+}
+
+.iconos {
+    width: 60px; /* Tamaño específico para el logo */
+    border-radius: 10px;
+}
+
+.imagen-reloj {
+    margin-top: 20px; /* Espacio adicional en la parte superior de la imagen adicional */
+}
+
+/* Estilos para los enlaces de redes sociales en el footer */
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.social-links a:hover {
+    background-color: #5C4E4E;
+}
